@@ -1,1 +1,32 @@
-{"nbformat":4,"nbformat_minor":0,"metadata":{"colab":{"name":"Untitled0.ipynb의 사본의 사본","provenance":[{"file_id":"1asSD2jwq8hG2WNDDHsZncQincFvf9r7P","timestamp":1615886989272},{"file_id":"1mXUZ9Z5Jk763NOpTvRtT5dUOuTj3BX-X","timestamp":1615631079148}],"collapsed_sections":[],"authorship_tag":"ABX9TyNfd+GgAsVVBCShlUfM7ahm"},"kernelspec":{"name":"python3","display_name":"Python 3"},"accelerator":"GPU"},"cells":[{"cell_type":"code","metadata":{"id":"tWedOpuEJXZT","colab":{"base_uri":"https://localhost:8080/"},"executionInfo":{"status":"ok","timestamp":1615886672444,"user_tz":-540,"elapsed":1207,"user":{"displayName":"이광호","photoUrl":"","userId":"00864309768245826715"}},"outputId":"eb14d207-04ac-400b-b059-4ac1f25a82d4"},"source":["start,end,hour,minute=\"용인\",\"군산\", \"8\",\"20\"\r\n","print('{}에서 {}으로 가는 {}시 {}분 버스입니다.'.format(start,end,hour,minute))\r\n"],"execution_count":2,"outputs":[{"output_type":"stream","text":["용인에서 군산으로 가는 8시 20분 버스입니다.\n"],"name":"stdout"}]},{"cell_type":"code","metadata":{"colab":{"base_uri":"https://localhost:8080/"},"id":"bFV2LMsjDysK","executionInfo":{"status":"ok","timestamp":1615886812884,"user_tz":-540,"elapsed":756,"user":{"displayName":"이광호","photoUrl":"","userId":"00864309768245826715"}},"outputId":"75653ef9-c1f3-459d-d2f1-b32130b17930"},"source":["a=b=c=0\r\n","print('변수 a={} b={} c={} 으로 초기화 되었습니다.'.format(a,b,c))"],"execution_count":3,"outputs":[{"output_type":"stream","text":["변수 a=0 b=0 c=0 으로 초기화 되었습니다.\n"],"name":"stdout"}]},{"cell_type":"code","metadata":{"colab":{"base_uri":"https://localhost:8080/"},"id":"flDL9IckEiWC","executionInfo":{"status":"ok","timestamp":1615630449776,"user_tz":-540,"elapsed":627,"user":{"displayName":"이광호","photoUrl":"","userId":"00864309768245826715"}},"outputId":"e028c190-8db1-4ef0-e1a1-fa4459a32f1a"},"source":["a,b=68,53\r\n","a,b=b,a\r\n","print('a={} b={}의 값이 저장되었습니다.'.format(a,b))"],"execution_count":null,"outputs":[{"output_type":"stream","text":["a= 53 b= 68 의 값이 저장되어 있습니다.\n"],"name":"stdout"}]},{"cell_type":"code","metadata":{"colab":{"base_uri":"https://localhost:8080/"},"id":"XfSKhoHKFFKT","executionInfo":{"status":"ok","timestamp":1615886917402,"user_tz":-540,"elapsed":822,"user":{"displayName":"이광호","photoUrl":"","userId":"00864309768245826715"}},"outputId":"6c710614-e31f-4d86-adcd-69cc6def6d48"},"source":["men,women=25,15\r\n","print('남자 {}명 여자 {}명 합계 {}명'.format(men,women,men+women))"],"execution_count":4,"outputs":[{"output_type":"stream","text":["남자 25명 여자 15명 합계 40명\n"],"name":"stdout"}]},{"cell_type":"code","metadata":{"colab":{"base_uri":"https://localhost:8080/"},"id":"V1ftF7eSF2Cp","executionInfo":{"status":"ok","timestamp":1615886929801,"user_tz":-540,"elapsed":690,"user":{"displayName":"이광호","photoUrl":"","userId":"00864309768245826715"}},"outputId":"e9b42d16-b1a7-419e-9553-33beb470938b"},"source":["std1,std2,std3='kim','lee','yun'\r\n","std1,std2=std2,std1\r\n","std2,std3=std3,std2\r\n","print('std1={}, std2={}, std3={}'.format(std1,std2,std3))"],"execution_count":5,"outputs":[{"output_type":"stream","text":["std1=lee, std2=yun, std3=kim\n"],"name":"stdout"}]}]}
+---
+layout: single
+title: "출력문"
+---
+# 오늘 배우게된 출력문 변수입니다.
+
+#1
+start,end,hour,minute="용인","군산", "8","20"
+print(‘{}에서 {}으로 가는 {}시 {}분 버스입니다.’.format(start,end,hour,minute))
+
+
+#2
+a=b=c=0
+print(‘변수 a={} b={} c={} 으로 초기화 되었습니다.’.format(a,b,c))
+
+
+#3
+a,b=68,53
+a,b=b,a
+print(‘a={} b={}의 값이 저장되었습니다.’.format(a,b))
+
+
+#4
+men,women=25,15
+print(‘남자{}명 여자{}명 합계{}명’.format(men,women,men+women))
+
+
+#5
+std1,std2,std3='kim','lee','yun'
+std1,std2=std2,std1
+std2,std3=std3,std2
+print(‘std1={}, std2={}, std3={}’.format(std1,std2,std3))
