@@ -3,7 +3,7 @@ layout: single
 title: "데이터형,입력문"
 ---
 ---
-![Image Alt 텍스트](/assets/img/img.png)
+![Image Alt](/assets/img/img.png)
 ---
 
 오늘 배운 데이터 형과 입력문을 이용하여 문제를 해결해보았다. 저번시간에 배운 format도 이용하여 해결했다.  
