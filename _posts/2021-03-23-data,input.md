@@ -8,7 +8,7 @@ title: "데이터형,입력문"
 디지털터미널에서는 출발지와 도착지의 버스운행시간표를 대형화면에 출력하려고 합니다. 출
 발지와 도착지, 출발시간과 도착시간을 입력하면 버스운행 시간표를 예시 화면과 같이 출력하는
 프로그램을 작성하시오.
-![Image Alt](/assets/img/img.png)
+![Image Alt](resserda.github.io/assets/img/img.png)
 ~~~
 x=input('출발지:')
 y=input('도착지:')
